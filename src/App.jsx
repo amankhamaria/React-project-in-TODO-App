@@ -63,9 +63,13 @@ function App() {
                 >
                   Done
                 </button>
-                <button>Del</button>
+                <button onClick={() =>{
+                  deleteTask(index);
+                }} 
+                >
+                  Del</button>
               </div>
-            </li>
+            </li> 
           ))}
         </ul>
       </section>
